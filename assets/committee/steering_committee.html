@@ -186,21 +186,6 @@
         </div>
 
         <div class="member-grid">
-            <div class="member-card">
-                <div class="member-photo">
-                    <img src="../images/Shiban K. Koul.png" alt="Shiban K. Koul">
-                </div>
-                <h3 class="member-name">Shiban K. Koul</h3>
-                <p class="member-org">Indian Institute of Technology Delhi</p>
-            </div>
-
-            <div class="member-card">
-                <div class="member-photo">
-                    <img src="../images/img2.jpg" alt="Alok Saraswat">
-                </div>
-                <h3 class="member-name">Alok Saraswat</h3>
-                <p class="member-org">Central University of Rajasthan</p>
-            </div>
 
             <div class="member-card">
                 <div class="member-photo">
@@ -231,28 +216,7 @@
         </div>
     </section>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            anime({
-                targets: '.member-card',
-                translateY: [50, 0],
-                opacity: [0, 1],
-                delay: anime.stagger(150),
-                duration: 1000,
-                easing: 'easeOutQuart'
-            });
-
-            anime({
-                targets: '.steering-highlight',
-                scale: [0.9, 1],
-                opacity: [0, 1],
-                duration: 1200,
-                easing: 'easeOutElastic(1, .8)'
-            });
-        });
-    </script>
-
-        <footer class="main-footer">
+    <footer class="main-footer">
   <div class="footer-container">
 
     <!-- Organized By -->
@@ -310,6 +274,27 @@
   </div>
 
 </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            anime({
+                targets: '.member-card',
+                translateY: [50, 0],
+                opacity: [0, 1],
+                delay: anime.stagger(150),
+                duration: 1000,
+                easing: 'easeOutQuart'
+            });
+
+            anime({
+                targets: '.steering-highlight',
+                scale: [0.9, 1],
+                opacity: [0, 1],
+                duration: 1200,
+                easing: 'easeOutElastic(1, .8)'
+            });
+        });
+    </script>
     <script src="../js/main.js?v=3"></script>
 </body>
 </html>
